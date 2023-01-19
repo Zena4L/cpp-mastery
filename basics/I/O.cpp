@@ -37,8 +37,9 @@ int main(void)
         int age;
     };
 
+    typedef struct Details SD;
     //intializing structures
-    struct Details zena = {"Clement","Owireku","Bogyah",1666,24};
+    SD zena = {"Clement","Owireku","Bogyah",1666,24};
     cout<<"Details ---------" <<endl;
     cout<< "first Name : " << zena.fname<<endl;
     cout<< "middle Name : " << zena.mname<<endl;
