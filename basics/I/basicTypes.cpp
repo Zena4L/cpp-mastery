@@ -11,6 +11,7 @@ using namespace std;
  * struct - structures - for creating user defined types
 */
 
+
 int main(void)
 {
     //standard output
@@ -44,11 +45,10 @@ int main(void)
     cout<< "first Name : " << zena.fname<<endl;
     cout<< "middle Name : " << zena.mname<<endl;
     cout<< "last Name : " << zena.lname<<endl;
-    cout<< " id : " << zena.id<<endl;
+    cout<< "id : " << zena.id<<endl;
     cout<< "age  : " << zena.age<<endl;
 
     
-
 
 
 }
