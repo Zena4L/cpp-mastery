@@ -18,6 +18,9 @@ int main(void)
         break;
     }
     
+    string str("some string");
+    for(auto c : str)
+        cout << c <<endl;
 
 
     
