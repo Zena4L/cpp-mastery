@@ -48,6 +48,12 @@ int main(void)
     cout<< "id : " << zena.id<<endl;
     cout<< "age  : " << zena.age<<endl;
 
+    int number;
+    while (cin >> number)
+    {
+        cout << "number is :" << number<<endl;
+        break;
+    }
     
 
 
