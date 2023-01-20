@@ -32,7 +32,9 @@ int main(void)
     {
         cout<<word<<endl;
         break;
-    }
+    
+
+   
     
 
     return 0;
