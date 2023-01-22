@@ -5,8 +5,8 @@ int sum (int x, ...);
 
 int main(void)
 {
-    
-    printf("\n%d",sum(2,3,4));
+    int result = sum(2,3,4);
+    printf("\n%d",result);
     return 0;
 }
 int sum(int x, ...)
