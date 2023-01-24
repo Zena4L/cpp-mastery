@@ -5,7 +5,7 @@ using namespace std;
 /**
  * vector uses vector header.
  * .push_back() - to append
- * .at(index) - to print
+ * .at(index) - to print and can also use for range
 */
 
 int main(void)
@@ -42,7 +42,9 @@ int main(void)
             
     }
     cout<<"-----------------------"<<endl;
-    for (int i =0; i < ivec.size(); i++)
-        cout << ivec.at(i)<<endl;
+    // for (int i =0; i < ivec.size(); i++)
+    //     cout << ivec.at(i)<<endl;
+    for(auto i : ivec)
+        cout<<i<<endl;
     return 0;
 }
