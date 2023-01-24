@@ -28,7 +28,12 @@ int main(void)
             cout<<l<<endl;
         break;
     }
-    
+
+    //Proccessing characters
+    string str("Hello world!");
+    for( auto c : str)
+        cout<<c<<endl;
+        
     return 0;
 
 }
