@@ -26,13 +26,27 @@ int main(void)
 
     if(ivec.begin() != ivec.end()){
         auto m = ivec.begin();
-        auto n = ivec.end();
         *m = *m * 5;
-        *n = *n * 5;
     }
     for (auto i : ivec)
         cout<< i << " ";
         cout << endl;
+    
+    struct MyObj
+    {
+        string name;
+        int age;
+        double sal;
+        int index;
+    };
+
+    typedef struct MyObj MO;
+
+    MO obj1 = {"Clement",12,12.00,001};
+    MO *pObj = &obj1;
+
+    cout<<pObj -> name<<endl;
+    
 
     return 0;
 }
