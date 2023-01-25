@@ -5,7 +5,7 @@ using namespace std;
 /**
  * vector uses vector header.
  * .push_back() - to append
- * .at(index) - to print and can also use for range
+ * .at(index) - to print and can also use for rangeq
 */
 
 int main(void)
