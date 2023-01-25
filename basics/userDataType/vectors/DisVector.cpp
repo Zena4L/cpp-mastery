@@ -6,6 +6,7 @@ using namespace std;
 
 /**
  * @d - displaying vector members
+ * size() and empty() -  size returns number of elements and empty return a bool
 */
 int main(void)
 {
@@ -16,5 +17,7 @@ int main(void)
     for ( auto i : v1)
         cout<<i << " ";
         cout<< endl;
+    cout<< v1.size() <<endl;
+    cout<< v1.empty()<<endl;
     return 0;
 }
