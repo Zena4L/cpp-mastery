@@ -1,6 +1,6 @@
 #include <iostream>
 #include <array>
-
+#include <cstddef>
 using namespace std;
 int main(void)
 {
