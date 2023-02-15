@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <ctype.h>
 
+/**
+ * desc- this program convert from upper to lower or lower to upper
+ * ./prog u - to upper
+ * ./prog l - to lower
+*/
+
 int toUp(int c);
 int toLo(int c);
 
