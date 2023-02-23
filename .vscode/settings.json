@@ -1,9 +1,0 @@
-{
-    "C_Cpp.errorSquiggles": "disabled",
-    "files.associations": {
-        "ostream": "cpp",
-        "__tuple": "cpp",
-        "__locale": "cpp",
-        "typeinfo": "cpp"
-    }
-}
